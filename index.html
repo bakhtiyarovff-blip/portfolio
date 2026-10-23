@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+  <video class="background-video" src="video_2026-09-19_17-57-21.mp4" autoplay muted loop playsinline></video>
+  <div class="video-shade" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Asadbek bosh sahifa">ASAD<span>BEK</span><i>.</i></a>
+
+      <button class="menu-toggle" aria-label="Menyuni ochish" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" aria-label="Asosiy menyu">
+        <a class="nav-link active" href="#home">Bosh sahifa</a>
+        <a class="nav-link" href="#about">Men haqimda</a>
+        <a class="nav-link" href="#family">Oilam</a>
+        <a class="nav-link" href="#group">Guruhim</a>
+        <a class="nav-link" href="#skills">Ko'nikmalar</a>
+        <a class="nav-link" href="#projects">Loyihalar</a>
+        <a class="nav-link nav-contact" href="#contact">Bog'lanish <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-aos="fade-right">
+          <div class="eyebrow"><span class="status-dot"></span> FRONTEND DEVELOPER IN TRAINING</div>
+          <p class="hello">Assalomu alaykum! 👋</p>
+          <h1>Men <span class="gradient-text">Asadbek</span><br>veb-dasturchi bo'lishni o'rganyapman.</h1>
+          <p class="hero-description">PDP Junior Sergeli filialida Frontend yo'nalishida tahsil olaman. G'oyalarni zamonaviy va chiroyli veb-sahifalarga aylantirishni o'rganyapman.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Loyihalarimni ko'rish <span>↗</span></a>
+            <a class="btn btn-outline" href="#about">Men haqimda</a>
+          </div>
+
+          <div class="hero-social-proof">
+            <div class="mini-avatars"><span>A</span><span>&lt;/&gt;</span><span>✦</span></div>
+            <p><strong>Doim o'rganishda</strong><br><small>Har kuni yangi bilim va tajriba</small></p>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-aos="fade-left" data-aos-delay="150">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <div class="portrait-frame">
+            <img src="photo_2026-10-23_21-13-09.jpg" alt="Asadbekning surati" class="portrait" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <div class="portrait-fallback">A<span>.</span></div>
+          </div>
+
+          <div class="floating-card code-card">
+            <span class="code-dot">●</span>
+            <code>&lt;code&gt;Future Dev&lt;/code&gt;</code>
+          </div>
+
+          <div class="floating-card learning-card">
+            <span class="sparkle">✦</span>
+            <div><strong>O'rganayapman</strong><small>HTML · CSS · JavaScript</small></div>
+          </div>
+
+          <div class="hero-glow"></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Pastga aylantiring</a>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-kicker">TANISHUV</p>
+          <h2>Men <span class="gradient-text">haqimda</span></h2>
+          <p>Qiziqishlarim, maqsadlarim va dasturlash sari yo'lim.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-main" data-aos="fade-up">
+            <div class="card-icon">✦</div>
+            <h3>O'rganishdan zavq olaman</h3>
+            <p>Men veb-dasturlashni yaxshi ko'raman. Hozir HTML va CSS orqali zamonaviy, qulay va chiroyli saytlar yaratishni o'rganyapman. Keyingi maqsadim — JavaScriptni chuqurroq o'rganib, loyihalarimni yanada interaktiv qilish.</p>
+            <div class="tag-row">
+              <span>Ijodkorlik</span>
+              <span>Qiziquvchanlik</span>
+              <span>Rivojlanish</span>
+            </div>
+          </article>
+
+          <article class="glass-card fact-card" data-aos="fade-up" data-aos-delay="100">
+            <span class="fact-icon">🎓</span>
+            <p class="fact-label">Ta'lim</p>
+            <h3>PDP Junior</h3>
+            <p>Sergeli filiali</p>
+          </article>
+
+          <article class="glass-card fact-card" data-aos="fade-up" data-aos-delay="200">
+            <span class="fact-icon">💻</span>
+            <p class="fact-label">Yo'nalish</p>
+            <h3>Frontend</h3>
+            <p>Veb-sayt yaratish</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="family" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-kicker">MEN UCHUN MUHIM</p>
+          <h2>Mening <span class="gradient-text">oilam</span></h2>
+          <p>Oila — qo'llab-quvvatlash, mehr va ilhom manbai.</p>
+        </div>
+
+        <div class="family-card glass-card" data-aos="zoom-in-up">
+          <div class="family-art" aria-hidden="true">
+            <span>♡</span>
+            <div class="family-circle circle-a"></div>
+            <div class="family-circle circle-b"></div>
+            <div class="family-circle circle-c"></div>
+            <div class="family-circle circle-d"></div>
+          </div>
+
+          <div class="family-copy">
+            <h3>Ahil va inoqligimiz — boyligimiz</h3>
+            <p>Oilamizda otam, onam, opam, akam, ukam va men bor. Bir-birimizni qo'llab-quvvatlaymiz va quvonchli kunlarni birga o'tkazamiz.</p>
+            <div class="family-members">
+              <span>👨‍👩‍👦 Ota-onam</span>
+              <span>👧 Opam</span>
+              <span>👦 Akam</span>
+              <span>🧒 Ukam</span>
+              <span>🙋 Men</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="group" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-kicker">BIRGALIKDA O'RGANAMIZ</p>
+          <h2>Mening <span class="gradient-text">guruhim</span></h2>
+          <p>Yangi bilimlar, amaliy mashg'ulotlar va qiziqarli loyihalar.</p>
+        </div>
+
+        <div class="group-grid">
+          <article class="glass-card group-card" data-aos="fade-right">
+            <div class="group-icon">⌘</div>
+            <h3>PDP Junior</h3>
+            <p>Frontend yo'nalishida bilim va ko'nikmalarimni rivojlantirayotgan ta'lim maskani.</p>
+          </article>
+
+          <article class="glass-card group-card" data-aos="fade-up">
+            <div class="group-icon">✎</div>
+            <h3>Amaliy mashg'ulotlar</h3>
+            <p>Darslarda o'rganganlarimizni kod yozish va kichik loyihalar orqali mustahkamlaymiz.</p>
+          </article>
+
+          <article class="glass-card group-card" data-aos="fade-left">
+            <div class="group-icon">🚀</div>
+            <h3>Umumiy maqsad</h3>
+            <p>Ustozimiz va guruhdoshlarimiz bilan birga o'sish, tajriba almashish va yangi marralarga intilish.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-kicker">MENING ASBOBLARIM</p>
+          <h2>Texnik <span class="gradient-text">ko'nikmalar</span></h2>
+          <p>Hozir o'rganayotgan texnologiyalarim.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card glass-card" data-aos="flip-up">
+            <div class="skill-top"><span class="skill-logo html-logo">5</span><span class="skill-level">Boshlang'ich</span></div>
+            <h3>HTML</h3>
+            <p>Sayt tuzilmasini yaratish</p>
+            <div class="skill-track"><span style="width:75%"></span></div>
+          </article>
+
+          <article class="skill-card glass-card" data-aos="flip-up" data-aos-delay="100">
+            <div class="skill-top"><span class="skill-logo css-logo">3</span><span class="skill-level">Boshlang'ich</span></div>
+            <h3>CSS</h3>
+            <p>Dizayn va sahifalarni bezash</p>
+            <div class="skill-track"><span style="width:65%"></span></div>
+          </article>
+
+          <article class="skill-card glass-card" data-aos="flip-up" data-aos-delay="200">
+            <div class="skill-top"><span class="skill-logo js-logo">JS</span><span class="skill-level">O'rganish rejasida</span></div>
+            <h3>JavaScript</h3>
+            <p>Sahifalarga interaktivlik qo'shish</p>
+            <div class="skill-track"><span style="width:20%"></span></div>
+          </article>
+
+          <article class="skill-card glass-card" data-aos="flip-up" data-aos-delay="300">
+            <div class="skill-top"><span class="skill-logo design-logo">✦</span><span class="skill-level">Amaliyot</span></div>
+            <h3>Responsive dizayn</h3>
+            <p>Turli ekranlarga moslashtirish</p>
+            <div class="skill-track"><span style="width:45%"></span></div>
+          </article>
+        </div>
+
+        <p class="skill-note">* Ko'rsatkichlar taxminiy va o'zingizning hozirgi darajangizga qarab o'zgartirilishi mumkin.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="section-kicker">AMALIY ISHLARIM</p>
+          <h2>Mening <span class="gradient-text">loyihalarim</span></h2>
+          <p>Bu kartalardagi nom va havolalarni o'zingiz yaratgan haqiqiy loyihalar bilan almashtiring.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass-card" data-aos="fade-up">
+            <div class="project-preview preview-one">
+              <span class="preview-label">01 / WEB</span>
+              <div class="mock-window">
+                <div class="mock-dots">● ● ●</div>
+                <div class="mock-line long"></div>
+                <div class="mock-line"></div>
+                <div class="mock-button"></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>HTML</span><span>CSS</span></div>
+              <h3>Birinchi veb-sahifam</h3>
+              <p>HTML va CSS yordamida yaratilgan dastlabki sahifa.</p>
+              <a class="project-link" href="#contact">Loyiha haqida <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-preview preview-two">
+              <span class="preview-label">02 / DESIGN</span>
+              <div class="mock-phone">
+                <div class="phone-top"></div>
+                <div class="phone-circle"></div>
+                <div class="mock-line long"></div>
+                <div class="mock-line"></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>CSS</span><span>Responsive</span></div>
+              <h3>Responsive dizayn</h3>
+              <p>Telefon va kompyuter ekranlariga mos sahifa dizayni.</p>
+              <a class="project-link" href="#contact">Loyiha haqida <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-preview preview-three">
+              <span class="preview-label">03 / PERSONAL</span>
+              <div class="project-monogram">A<span>.</span></div>
+              <div class="preview-caption">MY PORTFOLIO</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>Portfolio</span><span>UI</span></div>
+              <h3>Shaxsiy portfolio</h3>
+              <p>O'zim, ko'nikmalarim va maqsadlarim haqida sayt.</p>
+              <a class="project-link" href="#home">Bosh sahifaga <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects-tip" data-aos="fade-up">
+          <span>💡</span>
+          <p><strong>Maslahat:</strong> Haqiqiy loyihalaringiz tayyor bo'lgach, har bir kartaga loyiha skrinshoti va GitHub yoki demo havolasini qo'shing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-card glass-card" data-aos="zoom-in">
+          <div class="contact-copy">
+            <p class="section-kicker">ALOQADA BO'LAYLIK</p>
+            <h2>Biror g'oyangiz <span class="gradient-text">bormi?</span></h2>
+            <p>Taklif, fikr yoki loyiha haqida gaplashish uchun quyidagi tugmadan foydalaning.</p>
+          </div>
+
+          <a class="btn btn-primary contact-btn" href="mailto:asadbek@example.com?subject=Portfolio%20orqali%20aloqa">Menga yozish <span>↗</span></a>
+          <p class="email-note">Eslatma: <code>asadbek@example.com</code> manzilini o'zingizning emailingizga almashtiring.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">ASAD<span>BEK</span><i>.</i></a>
+      <p>O'rganishda davom etaman. Har bir qator kod — yangi tajriba.</p>
+      <span>© <span id="year"></span> Asadbek</span>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Yuqoriga qaytish" title="Yuqoriga">↑</button>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
